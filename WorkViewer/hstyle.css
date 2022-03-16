@@ -1,0 +1,341 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+div.logo {
+    
+    color: #14a800;
+
+    font-weight: bold;
+    font-size: 35px;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #4fab4a;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 25px 11%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+    .nav__links li {
+        display: inline-block;
+        padding: 12px 20px;
+    }
+
+        .nav__links li a {
+            transition: all 0.3s ease 0s;
+        }
+
+            .nav__links li a:hover {
+                transition: all 0.3s ease 0s;
+            }
+
+            .nav__links li a:hover {
+                color: black;
+            }
+
+.btn {
+    padding: 9px 25px;
+    background-color: #00CD00;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    .btn:hover {
+        
+        background-color: #89FB89;
+        color: white;
+    }
+
+/*welcome banner 1st box*/
+
+div.wel {
+    height: 250px;
+    width: 100%;
+    background-color: #1f544e;
+    color: white;
+    padding: 40px 160px;
+}
+
+.wel p {
+    text-align: left;
+    font-size: 40px;
+}
+
+.btno {
+    padding: 20px 1px;
+    align-content: left;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    background-color: #00CD00;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    .btn1:hover {
+        background-color: #89FB89;
+        color: black;
+    }
+
+/*2nd box*/
+
+.box2 {
+    width: 100%;
+    height: 70px;
+}
+
+.l {
+    border-left: 3px dotted black;
+    height: 70px;
+    left: 300px;
+    position: absolute;
+}
+
+.bp {
+    padding: 17px 160px;
+    font-weight: normal;
+    color: black;
+}
+
+/*3rd box*/
+
+.box3 {
+    width: 100%;
+    height: 260px;
+    background-color: #f2f7f2;
+    display: flex;
+}
+
+.p1 {
+    color: black;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 100px 160px;
+}
+/*
+.box4{
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+       text-decoration: none;
+       
+}
+
+
+.p2{
+       
+       color: black;
+       font-weight: normal;
+       font-size: 25px;
+       padding-top: 70px;
+       padding-left: 100px;
+}
+
+.p3{
+       color: black;
+       font-weight: normal;
+       font-size: 25px;
+       padding-top: 70px;
+       padding-left: 150px;
+
+}
+.p4{
+       color: black;
+       font-weight: normal;
+       font-size: 25px;
+       padding-top: 70px;
+       padding-left: 150px;
+
+}
+*/
+.box4 ul li {
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;
+    padding: 100px 49px;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.p4 {
+    font-size: 20px;
+}
+
+.p6 {
+    font-size: 20px;
+}
+
+.p3 {
+    font-size: 13px;
+}
+
+.p5 {
+    font-size: 13px;
+}
+
+.p7 {
+    font-size: 13px;
+}
+
+/* box 5 */
+
+.box5 {
+    width: 100%;
+    height: 300px;
+}
+
+.b5 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 110px;
+}
+
+/* box 6 */
+
+.box6 {
+    width: 100%;
+    height: 320px;
+    background-color: #f2f7f2;
+}
+
+.b6 {
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.box7 ul li {
+    color: black;
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;
+    padding: 60px 130px;
+    text-align: center;
+}
+
+
+.b8 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.s8 {
+    font-size: 14px;
+}
+
+.b9 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.s9 {
+    font-size: 14px;
+}
+/* box 8 */
+
+.box8 {
+    width: 100%;
+    height: 300px;
+    background-color: #1f544e;
+    text-align: center;
+    padding-top: 117px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* box 9 */
+
+.box9 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.p9 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.btns9 {
+    padding-top: 50px;
+}
+
+.btn9 {
+    align-content: center;
+    padding: 16px 50px;
+    background-color: #00CD00;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    .btn9:hover {
+        background-color: #89FB89;
+        color: black;
+    }
+
+
+
+
+
+
+/* box 10 */
+
+.box10 {
+    width: 100%;
+    height: 200px;
+    background-color: #001e00;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.p10 {
+    color: white;
+    padding-top: 80px;
+}
+
+.bord10 {
+    height: 70px;
+    width: 1200px;
+    position: relative;
+    border-bottom: 2px solid white;
+}
